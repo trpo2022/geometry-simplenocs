@@ -31,13 +31,13 @@ int main() {
             continue;
         } 
 		else {
-            printf("Nepravil'nyy vvod teksta");
+            printf("FATAL ERROR");
             return 2;
         }
     }
     i = GG(MAX_LENGTH, MESSAGE, i);
     if (i >= MAX_LENGTH) {
-        printf("Ob'yem prevyshen");
+        printf("ERROR");
         return 1;
     }
     float x, y, r;
@@ -46,6 +46,6 @@ int main() {
         printf("%s\n", circle);
     } 
 	else {
-        printf("Nevernyy vvod koordinat");
+        printf("BLUE SCREEN");
     }
 }
